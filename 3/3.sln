@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log-formatter", "log-format
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log-formatter", "log-formatter\log-formatter.csproj", "{487EBF42-8CF4-41B4-B020-003BD1D762A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6C78D564-9E6D-47E7-9BA7-4B94EAAB5B44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{F548367B-F6B9-4E24-886F-D8B0C7C73C0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{487EBF42-8CF4-41B4-B020-003BD1D762A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487EBF42-8CF4-41B4-B020-003BD1D762A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487EBF42-8CF4-41B4-B020-003BD1D762A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F548367B-F6B9-4E24-886F-D8B0C7C73C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F548367B-F6B9-4E24-886F-D8B0C7C73C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F548367B-F6B9-4E24-886F-D8B0C7C73C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F548367B-F6B9-4E24-886F-D8B0C7C73C0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{487EBF42-8CF4-41B4-B020-003BD1D762A7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F548367B-F6B9-4E24-886F-D8B0C7C73C0F} = {6C78D564-9E6D-47E7-9BA7-4B94EAAB5B44}
 	EndGlobalSection
 EndGlobal
